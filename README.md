@@ -49,6 +49,7 @@ Detecting a 1pp change in 7-day retention needs about 24,700 players per group. 
 
 - **Sample ratio mismatch:** the split was 49.56% / 50.44% (chi-square p = 0.0086). This is a mild mismatch. Without assignment logs the cause can't be investigated, so I proceed but report it as a key limitation.
 - **Outliers:** one player logged 49,854 rounds (the next highest was 2,961). Game rounds are heavily skewed, so I used a rank-based test and winsorised the data at the 99.9th percentile rather than relying on raw means.
+ ![Distribution of game rounds and extreme outliers](figures/gamerounds_outliers.png)
 
 ### 5. Significance testing
 
